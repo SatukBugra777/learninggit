@@ -9,3 +9,7 @@ let me tell you.
 6.git branch to see which branch you are on.
 7.git checkout(branch name) if you want to switch between branches.
 8.Once modified a file, git add to let git see the changes,then commit,then push.
+
+##extra
+git branch -d(branch name or link) for deleting a branch inside your code.
+git commit -am for adding the repo and to commit a messagge.
