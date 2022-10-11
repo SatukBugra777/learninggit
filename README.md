@@ -10,6 +10,11 @@ let me tell you.
 7.git checkout(branch name) if you want to switch between branches.
 8.Once modified a file, git add to let git see the changes,then commit,then push.
 
-##extra
+## extra
 git branch -d(branch name or link) for deleting a branch inside your code.
-git commit -am for adding the repo and to commit a messagge.
+git commit -am for adding the repo and to commit a messagge(ONLY FOR MODIFIED FILES).
+git reset to reset your repo but to reset a commit you also type HEAD. To reset a commit before the last commit you type git reset HEAD~1 so it resets the commit before the last commit.
+git log to see your log.
+you can reset a commit saved in a log so ,git reset (log commit number in git log).
+to remove latest updates just type git remove --hard(log commit number in git log.) 
+you can if you want to have acess to a repo(not yours) fork it in github and change it or not.
